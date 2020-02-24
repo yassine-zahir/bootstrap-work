@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="/exo-bootstrap-enonce/css/maquettecss1.css" />
+    <title>Articles1</title>
+</head>
+
+<body>
+    <div class="contener">
+        <nav class="navbar navbar-light bg-dark">
+            <span class="navbar-text" id="blog">
+                Mon blog
+            </span>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-secondary my-2 my-sm-0 " type="submit">Rechercher</button>
+            </form>
+            <a class="nav-link active" href="#"id="deco" ><i class="fa fa-power-off"></i>Se déconnecter</a>
+        </nav>
+        <div class="row">
+            <div class="col-3">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link " id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+                        aria-controls="v-pills-home" aria-selected="true"><i class="fa fa-home"></i>Tableau de bord</a>
+                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                        aria-controls="v-pills-profile" aria-selected="true"><i class="fa fa-folder"></i>Pages</a>
+                    <a class="nav-link active" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
+                        role="tab" aria-controls="v-pills-messages" aria-selected="true"><i
+                            class="fa fa-paragraph"></i>Articles</a>
+                    <a class="nav-link " id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
+                        role="tab" aria-controls="v-pills-messages" aria-selected="true"><i
+                            class="fa fa-tags"></i>Tags</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="true"><i class="fa fa-file-o"></i>Files</a>
+                    <a class="nav-link" id="v-pills-settings-tab1" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="true">Paramétres</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="true"><i
+                            class="fa fa-users"></i>Utilisateurs</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="true"><i class="fa fa-cogs"></i>Paramétres</a>
+                </div>
+            </div>
+            <div class="col-9 " id="articles">
+                <div class="row">
+                    <h1 class="col-4">Article 1</h1>
+                    <div class="col-5"id="boutn">
+                        <button type="button" class="btn  btn-outline-secondary btn-sm">X Annuler</button>
+                        <button type="button" class="btn  btn-primary btn-sm">Valider</button>
+                    </div>
+                </div>
+                <h5>Statut</h5>
+                <div>
+                    <select class="custom-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+                        <option selected>Publié</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+                <div>
+                    <h5>Titre de l'article</h5>
+                    <input type="text" class="form-control" aria-label="lorem">
+                </div>
+                <div>
+                    <h5>Contenu de l'article</h5>
+                    <textarea class="form-control" aria-label="With textarea">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod dolorem vitae ad hic maxime dignissimos earum accusantium explicabo. Rem iure sit praesentium facilis ea dignissimos aliquid, maxime eius illum beatae?</textarea>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>

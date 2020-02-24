@@ -1,0 +1,35 @@
+.navbar .nav-link, #v-pills-settings-tab1{
+color: gray;
+}
+#blog{
+    color: white;
+}
+.entete {
+    display: inline;
+}
+#boutn{
+    margin-top: 2%;
+    margin-left: 18%;
+    text-align: end;
+
+}
+#exampleModalLabel{
+    color: rgb(177, 17, 17);
+}
+@media screen and (max-width: 768px){
+    .col-3{
+        display: none;
+    }
+    .navbar{
+        display: block;
+        
+    }
+    #deco{
+        text-align: end;
+        
+    }
+    #articles{
+        margin: 0 auto;
+        
+    }
+}
